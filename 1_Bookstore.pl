@@ -28,7 +28,10 @@ shipping(d,seoul,3).
   shipping(BS,C2,Cost2),
   lives(P1,C1),
   lives(P2,C2),
-  P1\=P2,C1\=C2,
+  20> Cost1 + LP,
+  20> Cost2 + LP,
+  
+  C1\=C2,
   write("Book store "),write(BS),nl,nl.
 
 */
